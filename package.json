@@ -1,0 +1,16 @@
+{
+  "name": "mongo-collection-exporter",
+  "version": "1.0.0",
+  "description": "This Node.js script exports all collections of a MongoDB database to a single Excel (.xlsx) file.",
+  "main": "extract-collections-to-xlsx.js",
+  "scripts": {
+    "start": "node extract-collections-to-xlsx.js"
+  },
+  "author": "Enzo Soulié",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
